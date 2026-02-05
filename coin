@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; }
+    body {
+      background: transparent;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
+  <gecko-coin-price-marquee-widget locale="ko" dark-mode="true" coin-ids="bitcoin,solana,ethereum,pudgy-penguins,tether,ripple,sui,tether-gold" initial-currency="btc"></gecko-coin-price-marquee-widget>
+</body>
+</html>
