@@ -4,16 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    * { margin: 0; padding: 0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       background: #191919;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
     }
-    gecko-coin-price-marquee-widget {
-      width: 100%;
+    gecko-coin-price-marquee-widget,
+    gecko-coin-price-marquee-widget iframe,
+    gecko-coin-price-marquee-widget > * {
+      width: 100% !important;
+      max-width: 100% !important;
     }
   </style>
 </head>
